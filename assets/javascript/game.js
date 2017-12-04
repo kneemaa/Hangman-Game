@@ -55,10 +55,13 @@ window.onclick = function () {
 			}
 		}
 
+		//if the letter in the guessed list is in the word, print the letter otherwise print the blank line
 		for (i = 0; i < selectedWord.length; i++) {
 			var letterToPrint = selectedWord.charAt(i);
 			
-			if ()
+			if (selectedWord.includes(letterToPrint)){
+
+			}
 			if (letterToPrint !== " ") {
 				blankHint = blankHint + "_ ";
 			} else {
