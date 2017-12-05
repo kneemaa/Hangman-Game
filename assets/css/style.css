@@ -1,10 +1,18 @@
 div.title {
-	/content:url(../images/sesame-street-sign.png);
+	content:url(../images/sesame-street-sign.png);
 	align-content: center;
 }
 body {
 	background-color: grey;
 }
-p {
+img {
+	width: 512px;
+	align-content: center;
+	display: block;
+}
+
+#characterLines, #guessesRemaining, #guessedLetters {
 	color: white;
+	font-size: 22px;
+	padding: 10px 0px 10px 0px;
 }
