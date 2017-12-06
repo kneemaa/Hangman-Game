@@ -10,9 +10,25 @@ img {
 	align-content: center;
 	display: block;
 }
-
+.signage {
+	background-image: url(../images/sesamesign.png);
+}
+.wrapper {
+	width: 507px;
+	height: 319px;
+	margin-left: 50px;
+}
 #characterLines, #guessesRemaining, #guessedLetters {
 	color: white;
 	font-size: 22px;
 	padding: 10px 0px 10px 0px;
+	z-index: 999;
+	max-width: 420px;
+}
+.textwrapper {
+	margin-left: 40px;
+	margin-top: 75px;
+}
+.spacer {
+	width: 10px;
 }
