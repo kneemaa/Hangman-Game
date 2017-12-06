@@ -104,8 +104,6 @@ $(document).ready(function(){
 					wordOfTheDayElement.textContent = "That's " + selectedWord + "!";
 				}
 			};
-			console.log(selectedWord.length);
-			console.log(blankHint.length);
 			
 			if (remainingGuesses > 0 && selectedWord === result) {
 				gameState(" "," "," ");
